@@ -10,11 +10,11 @@ date:
 # https://github.com/MoePlayer/APlayer
 # https://github.com/metowolf/MetingJS
 playlist:
-  server: netease #音乐平台: netease, tencent, kugou, xiami, baidu
-  type: playlist #类型：song, playlist, album, search, artist
-  id: 2042070338 #ID：song id, playlist id, album id, search keyword
+  server:  #音乐平台: netease, tencent, kugou, xiami, baidu
+  type:  #类型：song, playlist, album, search, artist
+  id:  #ID：song id, playlist id, album id, search keyword
   fixed: true
-  autoplay: true #可选：自动播放true,不自动播放false
+  autoplay: false #可选：自动播放true,不自动播放false
   order: list #可选：随机random，列表list
   loop: all #可选：全部循环all, 单曲循环 one, 不循环 none
 
